@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9f19bde-1f19-412b-ba53-b25c37c1d950" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/CbTestDbException.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testCB.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getPhoneInfo.sh" afterPath="$PROJECT_DIR$/getPhoneInfo.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.xml" afterPath="$PROJECT_DIR$/log.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runJobDist.sh" afterPath="$PROJECT_DIR$/runJobDist.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runProcessor.sh" afterPath="$PROJECT_DIR$/runProcessor.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/common/RandomString.java" afterPath="$PROJECT_DIR$/src/com/viber/common/RandomString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/BucketName.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/BucketName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/CouchBaseDbMediator.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/CouchBaseDbMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbJobDistributor.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbJobDistributor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbJobProcessor.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbJobProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbMediator.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbMediator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOpStat.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOpStat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperation.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperationType.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperationType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperations.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/DbOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/IApp.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/IApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ShutdownInterceptor.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/ShutdownInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/Table.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ValidationInfo.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/ValidationInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemExists.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemExists.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemModified.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemModified.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemNotFound.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/ViberDbItemNotFound.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/AbContact.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/AbContact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/AddressBook.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/AddressBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/CallInfo.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/CallInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/Contact.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/DeviceInfo.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/DeviceInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/MessageInfo.java" afterPath="$PROJECT_DIR$/src/com/viber/largescaletest/iteminfo/MessageInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/viber/log/CompressedRollingFileAppender.java" afterPath="$PROJECT_DIR$/src/com/viber/log/CompressedRollingFileAppender.java" />
-    </list>
+    <list default="true" id="d9f19bde-1f19-412b-ba53-b25c37c1d950" name="Default" comment="" />
     <ignored path="CbTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,16 +26,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbJobDistributor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/viber/largescaletest/DbJobDistributor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -145,9 +103,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -902,15 +860,16 @@
       <updated>1471193497745</updated>
       <workItem from="1471193509987" duration="353000" />
       <workItem from="1471194469163" duration="109000" />
+      <workItem from="1471195386886" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462000" />
+    <option name="totallyTimeSpent" value="472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -918,18 +877,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -975,18 +934,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cbtest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/viber/largescaletest/DbJobDistributor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1440">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/viber/largescaletest/DbJobDistributor.java">
+    <entry file="file://$PROJECT_DIR$/cbtest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
