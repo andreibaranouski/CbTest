@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_cbtest" default="compile.module.cbtest">
+  <dirname property="module.cbtest.basedir" file="${ant.file.module_cbtest}"/>
+  
+  <property name="module.jdk.home.cbtest" value=""/>
+  <property name="module.jdk.bin.cbtest" value=""/>
+  <property name="module.jdk.classpath.cbtest" value=""/>
+  
+  <property name="compiler.args.cbtest" value="-encoding UTF-8 -source 1.6 -target 1.8 ${compiler.args}"/>
+  
+  <property name="cbtest.output.dir" value="${module.cbtest.basedir}/bin"/>
+  <property name="cbtest.testoutput.dir" value="${module.cbtest.basedir}/bin"/>
+  
+  <path id="cbtest.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="cbtest.module.production.classpath">
+    <pathelement location="${basedir}/lib/commons-codec-1.5.jar"/>
+    <pathelement location="${basedir}/lib/jettison-1.1.jar"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/lib/jedis-2.1.0.jar"/>
+    <pathelement location="${basedir}/lib/ini4j-0.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-nio-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/netty-3.5.5.Final.jar"/>
+    <pathelement location="${basedir}/lib/gson-2.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-sources.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-sources.jar"/>
+  </path>
+  
+  <path id="cbtest.runtime.production.module.classpath">
+    <pathelement location="${cbtest.output.dir}"/>
+    <pathelement location="${basedir}/lib/commons-codec-1.5.jar"/>
+    <pathelement location="${basedir}/lib/jettison-1.1.jar"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/lib/jedis-2.1.0.jar"/>
+    <pathelement location="${basedir}/lib/ini4j-0.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-nio-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/netty-3.5.5.Final.jar"/>
+    <pathelement location="${basedir}/lib/gson-2.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-sources.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-sources.jar"/>
+  </path>
+  
+  <path id="cbtest.module.classpath">
+    <pathelement location="${cbtest.output.dir}"/>
+    <pathelement location="${basedir}/lib/commons-codec-1.5.jar"/>
+    <pathelement location="${basedir}/lib/jettison-1.1.jar"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/lib/jedis-2.1.0.jar"/>
+    <pathelement location="${basedir}/lib/ini4j-0.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-nio-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/netty-3.5.5.Final.jar"/>
+    <pathelement location="${basedir}/lib/gson-2.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-sources.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-sources.jar"/>
+  </path>
+  
+  <path id="cbtest.runtime.module.classpath">
+    <pathelement location="${cbtest.output.dir}"/>
+    <pathelement location="${basedir}/lib/commons-codec-1.5.jar"/>
+    <pathelement location="${basedir}/lib/jettison-1.1.jar"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.17.jar"/>
+    <pathelement location="${basedir}/lib/jedis-2.1.0.jar"/>
+    <pathelement location="${basedir}/lib/ini4j-0.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-nio-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/netty-3.5.5.Final.jar"/>
+    <pathelement location="${basedir}/lib/gson-2.2.1.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-javadocs.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0-sources.jar"/>
+    <pathelement location="${basedir}/lib/couchbase-client-1.1.0.jar"/>
+    <pathelement location="${basedir}/lib/spymemcached-2.8.9-sources.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.cbtest">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.cbtest">
+    <patternset refid="excluded.from.module.cbtest"/>
+  </patternset>
+  
+  <path id="cbtest.module.sourcepath">
+    <dirset dir="${module.cbtest.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.cbtest" depends="compile.module.cbtest.production,compile.module.cbtest.tests" description="Compile module CbTest"/>
+  
+  <target name="compile.module.cbtest.production" depends="register.custom.compilers" description="Compile module CbTest; production classes">
+    <mkdir dir="${cbtest.output.dir}"/>
+    <javac2 destdir="${cbtest.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.cbtest}/javac">
+      <compilerarg line="${compiler.args.cbtest}"/>
+      <bootclasspath refid="cbtest.module.bootclasspath"/>
+      <classpath refid="cbtest.module.production.classpath"/>
+      <src refid="cbtest.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.cbtest"/>
+    </javac2>
+    
+    <copy todir="${cbtest.output.dir}">
+      <fileset dir="${module.cbtest.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.cbtest.tests" depends="register.custom.compilers,compile.module.cbtest.production" description="compile module CbTest; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.cbtest" description="cleanup module">
+    <delete dir="${cbtest.output.dir}"/>
+    <delete dir="${cbtest.testoutput.dir}"/>
+  </target>
+</project>
