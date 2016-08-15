@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd /root/redis-stable/src/ && ./redis-server &
 sleep 10
 
